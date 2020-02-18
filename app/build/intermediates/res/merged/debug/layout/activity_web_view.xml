@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.recluse.xicor.wikio.WebViewActivity">
+
+
+    <LinearLayout
+        android:weightSum="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:padding="10dp">
+        <ImageButton
+            android:layout_weight="1"
+            android:onClick="openWVHome"
+            android:id="@+id/wb_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_arrow_back_white" />
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/webview_prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_keyboard_arrow_left_white"/>
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/webview_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_refresh_white"/>
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/webview_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_home_white"/>
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/webview_copy_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_content_copy_white"/>
+
+    </LinearLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webview"></WebView>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/download_wiki"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_file_download_white" />
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+</LinearLayout>

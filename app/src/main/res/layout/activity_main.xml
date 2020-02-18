@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.recluse.xicor.wikio.MainActivity"
+    android:background="?attr/colorPrimary">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:elevation="0dp"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:layout_gravity="center"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:layout_weight="6.97">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WIKIO"
+                    fontPath="JosefinSans-Bold.ttf"
+                    android:textSize="20sp"
+                    android:layout_centerVertical="true"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    tools:ignore="MissingPrefix" />
+                <LinearLayout
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true">
+                    <ImageButton
+                        android:onClick="openWikipedia"
+                        android:id="@+id/open_wikipedia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_language_white"/>
+                    <Space
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content" />
+                    <ImageButton
+                        android:id="@+id/open_settings"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_settings_white"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <EditText
+            android:hint="Search downloaded wikis"
+            android:textColorHint="#34495E"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ECF0F1"
+            android:drawableLeft="@drawable/ic_search_black"
+            android:textColor="#000000"
+            fontPath="JosefinSans-Regular.ttf"
+            tools:ignore="MissingPrefix" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/wiki_container"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="#000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    fontPath="JosefinSans-Bold.ttf"
+                    android:text="Shivaji"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="18sp"
+                    tools:ignore="MissingPrefix" />
+                <TextView
+                    android:textColor="#000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    fontPath="JosefinSans-Regular.ttf"
+                    android:text="Shivaji Bhonsle (Marathi [ʃiʋaˑɟiˑ bʱoˑs(ə)leˑ]; c. 1627/1630 – 3 April 1680) was an Indian warrior king and a member of the Bhonsle Maratha clan. Shivaji carved out an enclave from the declining Adilshahi sultanate of Bijapur that formed the genesis of the Maratha Empire. In 1674, he was formally crowned as the chhatrapati (monarch) of his realm at Raigad."
+                    android:paddingTop="5dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="14sp"
+                    tools:ignore="MissingPrefix" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>

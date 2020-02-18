@@ -1,0 +1,122 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:7:5-29:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\ranjit\.android\build-cache\0f8aa4f834a73320a26b8d3b1941180af44b3fbe\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ranjit\.android\build-cache\a42644c5454b65cb92fe5649351ede914008fa96\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ranjit\.android\build-cache\791fe4adc14ff6f98ab1cbda493a37b821d10722\output\AndroidManifest.xml:9:5-20
+MERGED from [com.andkulikov:transitionseverywhere:1.7.9] C:\Users\ranjit\.android\build-cache\bdbe139f046ba499d7e1009422b2b4e8b0b7503b\output\AndroidManifest.xml:12:5-20
+MERGED from [com.sothree.slidinguppanel:library:3.0.0] C:\Users\ranjit\.android\build-cache\90206f2d9ccfdee4550f4b29223b6c350c8cfa7c\output\AndroidManifest.xml:9:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] C:\Users\ranjit\.android\build-cache\1783a528b568f3821225966aa3f1a2e3f384cca8\output\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ranjit\.android\build-cache\8089cb45ae06447604fedef8585b2e25ea558e79\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ranjit\.android\build-cache\c41069326e4313e557a53f1404e8a130b023b005\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ranjit\.android\build-cache\c5735abe88da65f5cb5444ff5e77f4a8c3892433\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ranjit\.android\build-cache\6f3f22812f937732f9a327174f054b67d8332e96\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ranjit\.android\build-cache\d0e4c623ee352cedb08c6207a31b264980c02580\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ranjit\.android\build-cache\2ccd186f9f9f88ecc5a0d1da62981bfeac350f4f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ranjit\.android\build-cache\3b196a3404e79596744564cfa1a744afaae35d96\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ranjit\.android\build-cache\60b37c8319af359282d9a5aa27f7aad6b359307f\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ranjit\.android\build-cache\580e139be6b4b626646d52025a4f871fe68499ed\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:12:9-35
+	android:roundIcon
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:11:9-54
+	android:allowBackup
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.recluse.xicor.wikio.MainActivity
+ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:14:9-22:20
+	android:theme
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:16:13-51
+	android:name
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:15:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:20:27-74
+activity#com.recluse.xicor.wikio.WebViewActivity
+ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:23:9-24:63
+	android:theme
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:24:13-51
+	android:name
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:23:19-50
+service#com.recluse.xicor.wikio.DownloadWikiService
+ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:25:9-28:46
+	android:label
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:28:13-43
+	android:icon
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:27:13-55
+	android:name
+		ADDED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml:26:13-48
+uses-sdk
+INJECTED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] C:\Users\ranjit\.android\build-cache\0f8aa4f834a73320a26b8d3b1941180af44b3fbe\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ranjit\.android\build-cache\3204264a597ec51df4dec941a2c1816b82a7827c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ranjit\.android\build-cache\a42644c5454b65cb92fe5649351ede914008fa96\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ranjit\.android\build-cache\791fe4adc14ff6f98ab1cbda493a37b821d10722\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.andkulikov:transitionseverywhere:1.7.9] C:\Users\ranjit\.android\build-cache\bdbe139f046ba499d7e1009422b2b4e8b0b7503b\output\AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:blurry:2.1.1] C:\Users\ranjit\.android\build-cache\5fd6a53760f0b14c6394bd2a6bf5dbfecac69ca2\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.sothree.slidinguppanel:library:3.0.0] C:\Users\ranjit\.android\build-cache\90206f2d9ccfdee4550f4b29223b6c350c8cfa7c\output\AndroidManifest.xml:7:5-43
+MERGED from [uk.co.chrisjenx:calligraphy:2.2.0] C:\Users\ranjit\.android\build-cache\1783a528b568f3821225966aa3f1a2e3f384cca8\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ranjit\.android\build-cache\8089cb45ae06447604fedef8585b2e25ea558e79\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ranjit\.android\build-cache\c41069326e4313e557a53f1404e8a130b023b005\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ranjit\.android\build-cache\c5735abe88da65f5cb5444ff5e77f4a8c3892433\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ranjit\.android\build-cache\6f3f22812f937732f9a327174f054b67d8332e96\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ranjit\.android\build-cache\d0e4c623ee352cedb08c6207a31b264980c02580\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ranjit\.android\build-cache\2ccd186f9f9f88ecc5a0d1da62981bfeac350f4f\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ranjit\.android\build-cache\3b196a3404e79596744564cfa1a744afaae35d96\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ranjit\.android\build-cache\60b37c8319af359282d9a5aa27f7aad6b359307f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ranjit\.android\build-cache\580e139be6b4b626646d52025a4f871fe68499ed\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ranjit\.android\build-cache\0f8aa4f834a73320a26b8d3b1941180af44b3fbe\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ranjit\AndroidStudioProjects\Wikio\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\ranjit\.android\build-cache\0f8aa4f834a73320a26b8d3b1941180af44b3fbe\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ranjit\.android\build-cache\3204264a597ec51df4dec941a2c1816b82a7827c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\ranjit\.android\build-cache\a42644c5454b65cb92fe5649351ede914008fa96\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ranjit\.android\build-cache\8089cb45ae06447604fedef8585b2e25ea558e79\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ranjit\.android\build-cache\c41069326e4313e557a53f1404e8a130b023b005\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ranjit\.android\build-cache\c5735abe88da65f5cb5444ff5e77f4a8c3892433\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ranjit\.android\build-cache\6f3f22812f937732f9a327174f054b67d8332e96\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ranjit\.android\build-cache\d0e4c623ee352cedb08c6207a31b264980c02580\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ranjit\.android\build-cache\2ccd186f9f9f88ecc5a0d1da62981bfeac350f4f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ranjit\.android\build-cache\3b196a3404e79596744564cfa1a744afaae35d96\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ranjit\.android\build-cache\60b37c8319af359282d9a5aa27f7aad6b359307f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ranjit\.android\build-cache\580e139be6b4b626646d52025a4f871fe68499ed\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ranjit\.android\build-cache\0f8aa4f834a73320a26b8d3b1941180af44b3fbe\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\ranjit\.android\build-cache\0f8aa4f834a73320a26b8d3b1941180af44b3fbe\output\AndroidManifest.xml:26:9-47

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-3.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/90206f2d9ccfdee4550f4b29223b6c350c8cfa7c/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/90206f2d9ccfdee4550f4b29223b6c350c8cfa7c/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sothree.slidinguppanel/library/3.0.0/1b9a55bee7affb87c6d1f6051048bc8a03c3547f/library-3.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
